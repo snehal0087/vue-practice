@@ -1,17 +1,16 @@
 <template>
-<h1>ToDo App</h1>
-<Container />
+  <div id="App"><Todo /></div>
 </template>
 
 <script>
-import Container from './components/Container.vue';
+import Todo from "./components/Todo.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-  Container
-  }
-}
+    Todo,
+  },
+};
 </script>
 
 <style>
